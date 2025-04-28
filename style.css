@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    cursor: pointer;
+  }
+  
+  #status {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  #reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
